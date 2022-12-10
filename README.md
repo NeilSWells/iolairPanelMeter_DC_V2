@@ -92,9 +92,19 @@ In case anyone is wondering why it's a 6 core cable when we only need 4 cores, J
 
 # Power supply
 
+To test for any issues with electrical noise, I hooked the displays up in turn to an elderly 8Ah AGM battery to provide a clean 12v power source. The oscilloscope was set to capture the original Chi Tai meter and then the scales were kept the same to compare it to both the V1 and V2 boards.
+
+Chi Tai ammeter
+
 ![ChiTai Ammeter](https://user-images.githubusercontent.com/24658072/206869931-19022365-6b20-423e-91ee-c40b9c6e9a0e.png)
 
+Version 2 board
+
+
 ![Morsun PSU](https://user-images.githubusercontent.com/24658072/206869935-5ae50a4d-cb0f-4b18-8a6a-baa82f17af71.png)
+
+Version 1 board
+
 
 ![Recom PSU](https://user-images.githubusercontent.com/24658072/206869938-0c889f8c-46c9-4428-af36-8074fc300291.png)
 
