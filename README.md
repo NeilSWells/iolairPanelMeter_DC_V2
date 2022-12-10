@@ -137,5 +137,7 @@ Version 1 board
 
 ![Recom PSU](https://user-images.githubusercontent.com/24658072/206869938-0c889f8c-46c9-4428-af36-8074fc300291.png)
 
-![image](https://user-images.githubusercontent.com/24658072/206873819-582ce8c3-a846-4509-bd34-67e9ff6ec8a5.png)
+# 
+
+![image](https://user-images.githubusercontent.com/24658072/206873892-3742208f-4323-4dca-906c-5b88e24d7d32.png)
 
