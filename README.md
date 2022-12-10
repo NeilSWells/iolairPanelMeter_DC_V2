@@ -4,11 +4,17 @@ Updated DC Voltmeter and ammeter design that fits inside a Chi Tai case
 This is an updated version of the iolairPanelMeter project.
 
 The hardware design has been incorporated onto a single PCB.
+
 More of the components are now SMD and added at the factory.
+
 A further 28% improvement in energy efficiency.
+
 A ten position rotary switch selects the function of the board.
+
 A temperature sensor is included near the green connector to sense excessive heat rising from components below. If the temperature exceeds 45C (113F) the display will alternate between it's selected function and a superbright temperature reading. You can select whether it shows C or F.
+
 The software has been rewritten as a single file. The previous version encapsulated the functions in a library to allow tinkering with the functions. This version handles all the functions of the board.
+
 The code includes a Watchdog function to reboot the board if it hangs. I've had three boards running on my boat for nearly two years without an issue, but it's there just in case.
 
 The functions that can be selected are
