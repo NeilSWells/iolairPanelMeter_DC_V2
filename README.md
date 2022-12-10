@@ -90,6 +90,14 @@ https://www.aliexpress.com/item/4000022055649.html?spm=a2g0o.productlist.0.0.4fc
 
 In case anyone is wondering why it's a 6 core cable when we only need 4 cores, JLC only had the 6 pin SMD connectors in stock.
 
+# Programming
+
+Programming is the same as the original iolairPanelMeter project.
+
+# Manufacture
+
+Manufacture is very similar to the original, the only thing to note is that JLC consider it to be a board with 2 different designs. This is selected under PCB Specification - they will notice and make a surcharge if you get this wrong as I did.
+
 # Power supply
 
 To test for any issues with electrical noise, I hooked the displays up in turn to an elderly 8Ah AGM battery to provide a clean 12v power source. The oscilloscope was set to capture the original Chi Tai meter and then the scales were kept the same to compare it to both the V1 and V2 boards.
