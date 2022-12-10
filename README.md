@@ -12,7 +12,7 @@ A ten position rotary switch selects the function of the board.
 
 A temperature sensor is included near the green connector to sense excessive heat rising from components below. If the temperature exceeds 45C (113F) the display will alternate between it's selected function and a superbright temperature reading. You can select whether it shows C or F.
 
-The software has been rewritten as a single file. The previous version encapsulated the functions in a library to allow tinkering with the functions. This version handles all the functions of the board.
+The software has been rewritten. The previous version encapsulated the functions in a library to allow tinkering with the software. This version handles all the functions of the board in a single file.
 
 The code includes a Watchdog function to reboot the board if it hangs. I've had three boards running on my boat for nearly two years without an issue, but it's there just in case.
 
@@ -29,6 +29,9 @@ The functions that can be selected are
 8 - Set Fahrenheit
 9 - Set Centigrade
 ```
+
+Functions can only be changed before the board is powered up. Once running, the switch is ignored.
+
 ![IMG-9852](https://user-images.githubusercontent.com/24658072/206868530-d4637f50-6a49-4300-b112-2fa98e5db966.jpg)
 
 ![IMG-9844](https://user-images.githubusercontent.com/24658072/206868537-55dc6386-bda2-4126-8703-08ebf3b0759b.jpg)
