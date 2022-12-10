@@ -1,5 +1,4 @@
 # iolairPanelMeter_DC_V2
-Updated DC Voltmeter and ammeter design that fits inside a Chi Tai case
  
 This is an updated version of the iolairPanelMeter project.
 
@@ -30,6 +29,10 @@ The functions that can be selected are
 8 - Set Fahrenheit
 9 - Set Centigrade
 ```
+![IMG-9852](https://user-images.githubusercontent.com/24658072/206868530-d4637f50-6a49-4300-b112-2fa98e5db966.jpg)
+
+![IMG-9844](https://user-images.githubusercontent.com/24658072/206868537-55dc6386-bda2-4126-8703-08ebf3b0759b.jpg)
+
 
 At power up, the board displays its selected function for one second (within the limits of 7 segment displays)
 tESt, 12u, 24u, 300A, 400A, 500A, 800A, 1000, tE c, tE F
