@@ -52,7 +52,7 @@ Display the voltage, alerting if the reading is <= 24.4v or >= 29.6v
 Displays the amperage, the value should be selected to match the shunt (or match the previous meter)
 
 ## Set Fahrenheit & Set Centigrade
-These functions do two things. Firstly it stores the preferred temperature scale in the EEPROM. Secondly it displays the temperature in the selected scale. Power on the board with the switch in position 8 and it will show excessive temperatures in Fahrenheit. Power on in position 9 for Centigrade.
+These functions do two things. Firstly it stores the preferred temperature scale in the EEPROM. Secondly it displays the temperature in the selected scale. Power on the board with the switch in position 8 and it will show excessive temperatures in Fahrenheit every time it is powered up. Power on in position 9 for Centigrade.
 
 # Parts
 
