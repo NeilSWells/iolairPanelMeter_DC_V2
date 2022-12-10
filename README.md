@@ -18,6 +18,7 @@ The software has been rewritten as a single file. The previous version encapsula
 The code includes a Watchdog function to reboot the board if it hangs. I've had three boards running on my boat for nearly two years without an issue, but it's there just in case.
 
 The functions that can be selected are
+```
 0 - Test
 1 - 12V DC Voltmeter
 2 - 24V DC Voltmeter
@@ -28,6 +29,7 @@ The functions that can be selected are
 7 - 1000A DC Ammeter
 8 - Set Fahrenheit
 9 - Set Centigrade
+```
 
 At power up, the board displays its selected function for one second (within the limits of 7 segment displays)
 tESt, 12u, 24u, 300A, 400A, 500A, 800A, 1000, tE c, tE F
