@@ -12,7 +12,7 @@ The hardware design has been incorporated onto a single PCB.
 
 More of the components are now SMD and added at the factory.
 
-A further 28% improvement in energy efficiency.
+A further 30% improvement in energy efficiency.
 
 A ten position rotary switch selects the function of the board.
 
@@ -103,9 +103,15 @@ Programming is the same as the original iolairPanelMeter project.
 
 # Manufacture
 
-Manufacture is very similar to the original, the only thing to note is that JLC consider it to be a board with 2 different designs. This is selected under PCB Specification - they will notice and make a surcharge if you get this wrong as I did.
+Manufacture is very similar to the original, the only thing to note is that JLC consider it to be a board with 2 different designs. This is selected under PCB Specification - they will notice and make a surcharge if you get this wrong as I did. The maufacturing files and the SMD files are in Gerbers.zip
 
 # Power supply
+
+My selection of old 12v Chi Tai meters consumed between 2.6W and 3.0W at 13.8V
+
+The V1 boards used 0.19W at 13.8V, the V2 boards use 0.138W at 13.8V.
+
+The DC-DC converters are not quite as efficient at 27.6v. The V1 boards used 0.33W and the V2 were 0.22W
 
 To test for any issues with electrical noise, I hooked the displays up in turn to an elderly 8Ah AGM battery to provide a clean 12v power source. The oscilloscope was set to capture the original Chi Tai meter and then the scales were kept the same to compare it to both the V1 and V2 boards.
 
