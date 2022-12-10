@@ -221,7 +221,7 @@ void FunctionTest()
     }
     delay(1000);
     DisplaySequence(0, 0, 16, 18); //OOPS the watchdog timer should have rebooted the panel by now
-    for (;;); //This is an infinte loop. If the watchdog timer is not working, we will be stuck here forever.
+    for (;;); //This is an infinite loop. If the watchdog timer is not working, we will be stuck here forever.
 }
 
 
