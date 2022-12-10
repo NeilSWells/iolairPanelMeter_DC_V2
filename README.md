@@ -103,8 +103,8 @@ Version 2 board
 
 ![Morsun PSU](https://user-images.githubusercontent.com/24658072/206869935-5ae50a4d-cb0f-4b18-8a6a-baa82f17af71.png)
 
+# 
 Version 1 board
-
 
 ![Recom PSU](https://user-images.githubusercontent.com/24658072/206869938-0c889f8c-46c9-4428-af36-8074fc300291.png)
 
