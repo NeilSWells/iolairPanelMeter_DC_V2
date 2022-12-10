@@ -2,6 +2,10 @@
  
 This is an updated version of the iolairPanelMeter project.
 
+![IMG-9852](https://user-images.githubusercontent.com/24658072/206868530-d4637f50-6a49-4300-b112-2fa98e5db966.jpg)
+
+![IMG-9844](https://user-images.githubusercontent.com/24658072/206868537-55dc6386-bda2-4126-8703-08ebf3b0759b.jpg)
+
 The hardware design has been incorporated onto a single PCB.
 
 More of the components are now SMD and added at the factory.
@@ -31,11 +35,6 @@ The functions that can be selected are
 ```
 
 Functions can only be changed before the board is powered up. Once running, the switch is ignored.
-
-![IMG-9852](https://user-images.githubusercontent.com/24658072/206868530-d4637f50-6a49-4300-b112-2fa98e5db966.jpg)
-
-![IMG-9844](https://user-images.githubusercontent.com/24658072/206868537-55dc6386-bda2-4126-8703-08ebf3b0759b.jpg)
-
 
 At power up, the board displays its selected function for one second (within the limits of 7 segment displays)
 tESt, 12u, 24u, 300A, 400A, 500A, 800A, 1000, tE c, tE F
