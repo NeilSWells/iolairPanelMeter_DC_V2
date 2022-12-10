@@ -6,6 +6,8 @@ This is an updated version of the iolairPanelMeter project.
 
 ![IMG-9844](https://user-images.githubusercontent.com/24658072/206868537-55dc6386-bda2-4126-8703-08ebf3b0759b.jpg)
 
+# Changes
+
 The hardware design has been incorporated onto a single PCB.
 
 More of the components are now SMD and added at the factory.
@@ -52,7 +54,7 @@ Display the voltage, alerting if the reading is <= 24.4v or >= 29.6v
 Displays the amperage, the value should be selected to match the shunt (or match the previous meter)
 
 ## Set Fahrenheit & Set Centigrade
-These functions do two things. Firstly it stores the preferred temperature scale in the EEPROM. Secondly it displays the temperature in the selected scale. Power on the board with the switch in position 8 and it will show excessive temperatures in Fahrenheit every time it is powered up. Power on in position 9 for Centigrade.
+These functions do two things. Firstly it stores the preferred temperature scale in the EEPROM. Secondly it displays the temperature in the selected scale. Power on the board with the switch in position 8 once and it will show excessive temperatures in Fahrenheit every time it is powered up regardless of what function is active. Power on once in position 9 for Centigrade.
 
 # Parts
 
