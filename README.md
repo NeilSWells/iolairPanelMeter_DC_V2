@@ -98,8 +98,8 @@ Chi Tai ammeter
 
 ![ChiTai Ammeter](https://user-images.githubusercontent.com/24658072/206869931-19022365-6b20-423e-91ee-c40b9c6e9a0e.png)
 
+# 
 Version 2 board
-
 
 ![Morsun PSU](https://user-images.githubusercontent.com/24658072/206869935-5ae50a4d-cb0f-4b18-8a6a-baa82f17af71.png)
 
