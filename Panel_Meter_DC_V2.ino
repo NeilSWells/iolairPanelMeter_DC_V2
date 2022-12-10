@@ -32,7 +32,7 @@ uint8_t function = 0;
 int32_t result = 0;
 uint16_t boundsLow = 0;
 uint16_t boundsHigh = 0;
-bool displayFarenheit = false;
+bool displayFahrenheit = false;
 
 static const uint8_t displaySegmentMap[] =
 {
@@ -69,7 +69,7 @@ void setup()
     BeginDisplay();
     BeginSwitch();
     SetFunction();
-    displayFarenheit = EepromRead();
+    displayFahrenheit = EepromRead();
     BeginWatchdog(); //Set an 8 second watchdog timer to reboot the panel if wdt_reset() isn't called.
 }
 
@@ -103,7 +103,7 @@ void loop()
             FunctionAmps();
             break;
         case 8:
-            FunctionTemperature(true); //Show farenheit
+            FunctionTemperature(true); //Show fahrenheit
             break;
         case 9:
             FunctionTemperature(false); //Show centigrade
@@ -158,11 +158,11 @@ void SetFunction()
             break;
         case 8:
             DisplaySequence(19, 14, 10, 15);
-            if (!EepromRead ()) EepromWrite (true); //If the farenheit bit is not set in the Eeprom, set it.
+            if (!EepromRead ()) EepromWrite (true); //If the fahrenheit bit is not set in the Eeprom, set it.
             break;
         case 9:
             DisplaySequence(19, 14, 10, 13);
-            if (EepromRead ()) EepromWrite (false); //If the farenheit bit is set in the Eeprom, clear it.
+            if (EepromRead ()) EepromWrite (false); //If the fahrenheit bit is set in the Eeprom, clear it.
             break;
     }
     delay(1000);
@@ -221,7 +221,7 @@ void FunctionTest()
     }
     delay(1000);
     DisplaySequence(0, 0, 16, 18); //OOPS the watchdog timer should have rebooted the panel by now
-    for (;;); //This is an infinite loop. If the watchdog timer is not working, we will be stuck here forever.
+    for (;;); //This is an infinte loop. If the watchdog timer is not working, we will be stuck here forever.
 }
 
 
@@ -243,10 +243,10 @@ void FunctionAmps()
 }
 
 
-void FunctionTemperature(bool showFarenheit)
+void FunctionTemperature(bool showFahrenheit)
 {
     result = GetTemperature();
-    DisplayTemperature(result, showFarenheit);
+    DisplayTemperature(result, showFahrenheit);
     delay(333);
 }
 
@@ -302,7 +302,7 @@ void CheckTemperature()
         Clear();
         delay(200);
         SetBrightness(BRIGHTNESS_HIGH);
-        FunctionTemperature(displayFarenheit);
+        FunctionTemperature(displayFahrenheit);
         delay(333);
         SetBrightness(BRIGHTNESS_LOW);
         Clear();
@@ -380,10 +380,10 @@ void DisplayInteger(int32_t number, bool showDecimalPoint)
 }
 
 
-void DisplayTemperature(int32_t temperature, bool showFarenheit)
+void DisplayTemperature(int32_t temperature, bool showFahrenheit)
 {
     //Ensure the number is within bounds
-    if (showFarenheit)
+    if (showFahrenheit)
     {
         temperature = temperature * 9;
         temperature = temperature / 5;
@@ -422,7 +422,7 @@ void DisplayTemperature(int32_t temperature, bool showFarenheit)
         displayCharacter[1] = displaySegmentMap[displayDigit[1]];
         displayCharacter[2] = displaySegmentMap[displayDigit[2]];
     }
-    if (showFarenheit)
+    if (showFahrenheit)
     {
         displayCharacter[3] = displaySegmentMap[15]; //Show the F
     }
@@ -503,7 +503,7 @@ int16_t ReceiveResult(uint8_t address)
 // EEPROM
 ////////////////////////////////////////////////////////////
 
-//Store a single bit in address 1 of the Eeprom to set Centigrade or Farenheit readings
+//Store a single bit in address 1 of the Eeprom to set Centigrade or Fahrenheit readings
 void EepromWrite (bool setting)
 {
     while (EECR & (1 << EEPE)); // Wait for completion of previous write
