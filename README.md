@@ -26,19 +26,19 @@ The functions that can be selected are
 At power up, the board displays its selected function for one second (within the limits of 7 segment displays)
 tESt, 12u, 24u, 300A, 400A, 500A, 800A, 1000, tE c, tE F
 
-##Test
+## Test
 The code starts cycles through a number of tests including lighting all segments at full brightness, temperature in Centigrade and Fahrenheit, count up and down. At the end of the test, the code goes into an infinite loop to check that the Watchdog timer reboots the board correctly.
 
-##12V DC Voltmeter
+## 12V DC Voltmeter
 Display the voltage, alerting if the reading is <= 12.2v or >= 14.8v 
 
-##24v DC Voltmeter
+## 24v DC Voltmeter
 Display the voltage, alerting if the reading is <= 24.4v or >= 29.6v 
 
-##300A - 1000A DC Ammeter
+## 300A - 1000A DC Ammeter
 Displays the amperage, the value should be selected to match the shunt (or match the previous meter)
 
-##Set Fahrenheit & Set Centigrade
+## Set Fahrenheit & Set Centigrade
 These functions do two things. Firstly it stores the preferred temperature scale in the EEPROM. Secondly it displays the temperature in the selected scale. Power on the board with the switch in position 8 and it will show excessive temperatures in Fahrenheit. Power on in position 9 for Centigrade.
 
 
