@@ -6,6 +6,14 @@ This is an updated version of the iolairPanelMeter project.
 
 ![IMG-9844](https://user-images.githubusercontent.com/24658072/206868537-55dc6386-bda2-4126-8703-08ebf3b0759b.jpg)
 
+# Files
+
+Panel_Meter_DC_V2.ino - The Arduino software
+
+Panel_Meter_DC_V2.zip - KiCad V6 design files
+
+gerbers.zip - JLC formatted manufacturing files
+
 # Changes
 
 The hardware design has been incorporated onto a single PCB.
@@ -16,7 +24,7 @@ A further 30% improvement in energy efficiency.
 
 A ten position rotary switch selects the function of the board.
 
-A temperature sensor is included near the green connector to sense excessive heat rising from components below. If the temperature exceeds 45C (113F) the display will alternate between it's selected function and a superbright temperature reading. You can select whether it shows C or F.
+A temperature sensor is included near the green connector to sense excessive heat rising from breakers and bus bars below. If the temperature exceeds 45C (113F) the display will alternate between it's selected function and a superbright temperature reading. You can select whether it shows C or F.
 
 The software has been rewritten. The previous version encapsulated the functions in a library to allow tinkering with the software. This version handles all the functions of the board in a single file.
 
@@ -129,4 +137,5 @@ Version 1 board
 
 ![Recom PSU](https://user-images.githubusercontent.com/24658072/206869938-0c889f8c-46c9-4428-af36-8074fc300291.png)
 
+![image](https://user-images.githubusercontent.com/24658072/206873819-582ce8c3-a846-4509-bd34-67e9ff6ec8a5.png)
 
