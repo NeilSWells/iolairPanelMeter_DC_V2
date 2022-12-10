@@ -64,7 +64,10 @@ HT16K33 or HT16k33A or VK16k33 all SOP 24 versions.
 
 https://www.aliexpress.com/item/1005004738423851.html?spm=a2g0o.order_list.order_list_main.10.21ef1802Wdn0Ps
 
-Note that the chip is rotated 180 compared to the V1 boards with the pin 1 dot at the bottom.
+Note that the chip is rotated 180 compared to the V1 boards with the pin 1 dot at the bottom. This will allow the design to be easily adapted to the SOP 28 version if it comes in stock at JLC. A factory installed display chip would make the project very simple to build.
+
+I tried ordering the minimum quantity of 458 chips to see if they would stock them but to no avail:
+https://jlcpcb.com/partdetail/Holtek-HT16K33A/C5205198
 
 ## Seven segment display
 
