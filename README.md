@@ -84,6 +84,8 @@ https://uk.farnell.com/camdenboss/ctbp9358-6/terminal-block-header-6pos-r-a/dp/2
 
 FFC Cable, 6 Core, 1 mm pitch, Same Sided Contacts, 50 mm long
 
+Note that the cable is installed with the contacts facing up.
+
 https://uk.farnell.com/multicomp-pro/mp-ffca10060503a/ffc-cord-6p-same-side-50mm-wht/dp/3385304
 
 https://www.aliexpress.com/item/4000022055649.html?spm=a2g0o.productlist.0.0.4fcd5dbbpDS8Ir&algo_pvid=ac591bfa-7745-4d5f-8237-7b0a295e2733&algo_exp_id=ac591bfa-7745-4d5f-8237-7b0a295e2733-3&pdp_ext_f=%7B%22sku_id%22%3A%2210000000050434747%22%7D&pdp_npi=2%40dis%21GBP%210.84%210.74%21%21%21%21%21%402100bdcf16706960747111214e45c4%2110000000050434747%21sea&curPageLogUid=sdRRuynVVI8s
