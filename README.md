@@ -60,29 +60,42 @@ The only parts needed on the V2 boards are
 
 ## Display driver
 
-HT16K33 or HT16k33A or VK16k33 all SOP 24 versions
+HT16K33 or HT16k33A or VK16k33 all SOP 24 versions. 
+
 https://www.aliexpress.com/item/1005004738423851.html?spm=a2g0o.order_list.order_list_main.10.21ef1802Wdn0Ps
 
 Note that the chip is rotated 180 compared to the V1 boards with the pin 1 dot at the bottom.
 
 ## Seven segment display
 
-https://www.aliexpress.com/item/4000279476347.html?spm=a2g0o.order_list.order_list_main.4.21ef18025l8vlf
-
 4 bit common cathode
+
+https://www.aliexpress.com/item/4000279476347.html?spm=a2g0o.order_list.order_list_main.4.21ef18025l8vlf
 
 ## Connector
 
-https://www.digikey.com/en/products/detail/phoenix-contact/1757284/260478
-
 Connector - MSTBA 2.5/ 6-G-5.08
 
+https://www.digikey.com/en/products/detail/phoenix-contact/1757284/260478
+
+https://uk.farnell.com/camdenboss/ctbp9358-6/terminal-block-header-6pos-r-a/dp/2527815
+
 ## Display cable
+
+FFC Cable, 6 Core, 1 mm pitch, Same Sided Contacts, 50 mm long
 
 https://uk.farnell.com/multicomp-pro/mp-ffca10060503a/ffc-cord-6p-same-side-50mm-wht/dp/3385304
 
 https://www.aliexpress.com/item/4000022055649.html?spm=a2g0o.productlist.0.0.4fcd5dbbpDS8Ir&algo_pvid=ac591bfa-7745-4d5f-8237-7b0a295e2733&algo_exp_id=ac591bfa-7745-4d5f-8237-7b0a295e2733-3&pdp_ext_f=%7B%22sku_id%22%3A%2210000000050434747%22%7D&pdp_npi=2%40dis%21GBP%210.84%210.74%21%21%21%21%21%402100bdcf16706960747111214e45c4%2110000000050434747%21sea&curPageLogUid=sdRRuynVVI8s
-FFC Cable, 6 Core, 1 mm pitch, Same Sided Contacts, 50 mm long
 
+In case anyone is wondering why it's a 6 core cable when we only need 4 cores, JLC only had the 6 pin SMD connectors in stock.
+
+# Power supply
+
+![ChiTai Ammeter](https://user-images.githubusercontent.com/24658072/206869931-19022365-6b20-423e-91ee-c40b9c6e9a0e.png)
+
+![Morsun PSU](https://user-images.githubusercontent.com/24658072/206869935-5ae50a4d-cb0f-4b18-8a6a-baa82f17af71.png)
+
+![Recom PSU](https://user-images.githubusercontent.com/24658072/206869938-0c889f8c-46c9-4428-af36-8074fc300291.png)
 
 
