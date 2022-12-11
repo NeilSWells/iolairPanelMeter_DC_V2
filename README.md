@@ -148,3 +148,11 @@ Version 2 board
 
 ![image](https://user-images.githubusercontent.com/24658072/206873892-3742208f-4323-4dca-906c-5b88e24d7d32.png)
 
+## Contact
+If you have any questions or suggestions, email NeilSWells@gmail.com
+
+The use of this design is entirely at your own risk.
+
+## License
+
+MIT
