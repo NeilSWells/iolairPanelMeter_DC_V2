@@ -128,7 +128,7 @@ The DC-DC converters are not quite as efficient at 27.6v
 
 ## Electrical noise
 
-To test for any issues with electrical noise, I hooked the displays up in turn to an elderly 8Ah AGM battery to provide a clean 12v power source. The oscilloscope was set to capture the original Chi Tai meter and then the scales were kept the same to compare it to both the V1 and V2 boards.
+To test for any issues with electrical noise, I hooked the displays up in turn to an elderly 8Ah AGM battery to provide a clean 12v power source. The oscilloscope was set to capture the effect on the 12v source of the original Chi Tai meter. The scales were then kept the same to compare it to both the V1 and V2 boards.
 
 Chi Tai ammeter
 
