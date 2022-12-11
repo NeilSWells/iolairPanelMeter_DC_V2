@@ -20,7 +20,9 @@ The hardware design has been incorporated onto a single PCB.
 
 More of the components are now SMD and added at the factory.
 
-A further 30% improvement in energy efficiency.
+A 30% reduction in power consumption.
+
+Reduced electrical noise.
 
 A ten position rotary switch selects the function of the board.
 
@@ -121,12 +123,14 @@ Manufacture is very similar to the original, the only thing to note is that JLC 
 ```
 Voltage     13.8V   27.6V
 
-ChaTai      2.60W
+ChaTai      2.50W   2.50W
 Version 1   0.19W   0.33W
 Version 2   0.14W   0.22W
 ```
 
-The DC-DC converters are not quite as efficient at 27.6v
+Chi Tai quote 2.5w but when I measured 3 old meters they consumed 2.2W 2.6W and 3.0W
+
+The DC-DC converters on the V1 and V2 boards are not quite as efficient at 27.6v
 
 ## Electrical noise
 
