@@ -167,7 +167,7 @@ MIT
 
 AC Voltmeter
 
-![Panel Meter AC Volts](https://user-images.githubusercontent.com/24658072/206921971-52a9447a-f6e3-4dc0-9b91-6b2ef2ad1503.png)
+![Panel Meter AC Volts front](https://user-images.githubusercontent.com/24658072/206923200-b0f1550e-4ad4-45c8-82a3-7cddd20a23de.png)
 
 ![Panel Meter AC Volts back](https://user-images.githubusercontent.com/24658072/206922539-6869c05a-bbcc-480c-87f0-595a70e082ff.png)
 
