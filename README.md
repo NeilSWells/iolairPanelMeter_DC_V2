@@ -107,7 +107,9 @@ In case anyone is wondering why it's a 6 core cable when we only need 4 cores, J
 
 # Programming
 
-Programming is the same as the original iolairPanelMeter project.
+How the board is programmed is the same as the original iolairPanelMeter project.
+
+Note that the library used in Version 1 is not compatible with Version 2. The wiring betweeen the display chip and the display is slightly different.
 
 # Manufacture
 
