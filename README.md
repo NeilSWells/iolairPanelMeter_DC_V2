@@ -14,6 +14,8 @@ Panel_Meter_DC_V2.zip - KiCad V6 design files
 
 gerbers.zip - JLC formatted manufacturing files
 
+bom.csv and positions.csv - JLC formatted SMD parts and placement files
+
 # Changes
 
 The hardware design has been incorporated onto a single PCB.
