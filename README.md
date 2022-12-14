@@ -8,6 +8,8 @@ This is an updated version of the iolairPanelMeter project.
 
 # Files
 
+A new release called iolairPanelMeter_DC_V2_SOP28 is available - click the link on the right hand panel. The only change is that it uses the more easily availible SOP28 version of the HT16K33 display chip.
+
 Panel_Meter_DC_V2.ino - The Arduino software
 
 Panel_Meter_DC_V2.zip - KiCad V6 design files
@@ -74,7 +76,7 @@ The only parts needed on the V2 boards are
 
 ## Display driver
 
-HT16K33 or HT16k33A or VK16k33 all SOP 24 versions. 
+HT16K33 or HT16k33A or VK16k33. There are two versions of this design, one for the SOP24 version and one for the more common and cheaper SOP28. Future designs will stick to SOP28
 
 https://www.aliexpress.com/item/1005004738423851.html?spm=a2g0o.order_list.order_list_main.10.21ef1802Wdn0Ps
 
@@ -101,7 +103,7 @@ https://uk.farnell.com/camdenboss/ctbp9358-6/terminal-block-header-6pos-r-a/dp/2
 
 FFC Cable, 6 Core, 1 mm pitch, Same Sided Contacts, 50 mm long
 
-Note that the cable is installed with the contacts facing up.
+Note that the cable is installed with the contacts facing up. Pull the black part of the connector forward from the white part to open, insert the cable (about 1mm of contact should remain visible when the cable is fully inserted) click it home to lock the cable in place.
 
 https://uk.farnell.com/multicomp-pro/mp-ffca10060503a/ffc-cord-6p-same-side-50mm-wht/dp/3385304
 
