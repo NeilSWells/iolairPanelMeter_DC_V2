@@ -121,6 +121,15 @@ Note that the library used in Version 1 is not compatible with Version 2. The wi
 
 Manufacture is very similar to the original, the only thing to note is that JLC consider it to be a board with 2 different designs. This is selected under PCB Specification - they will notice and make a surcharge if you get this wrong as I did. The maufacturing files and the SMD files are in Gerbers.zip
 
+There is no point in ordering a soldering stencil with this version as there are other factory fitted components close by on the board.
+
+# Assembly
+
+This YouTube video is a good example of the technique I used to solder the display chip. Putting too much solder on with the syringe can be a problem - its better to put on too little and then add a little more if a pin is dry. Check for solder bridges between the pins when you're done.
+
+https://www.youtube.com/watch?v=rgcupYOnvBo
+
+
 # Power supply
 
 ## Power consumption
