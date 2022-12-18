@@ -145,6 +145,22 @@ Chi Tai quote 2.5w but when I measured 3 old meters they consumed 2.2W 2.6W and 
 
 The DC-DC converters on the V1 and V2 boards are not quite as efficient at 27.6v
 
+## Heat
+
+On all of my old Chi Tai meters, the bulk of the energy is wasted in the power supply part of the board. In the next two images, you can see that the heat being created in the back right hand side of the board. The six screw heads of the green connector are just visible near the top of the images. On a working board, the hottest component was sitting at 129°C (264°F). On a failed DC ammeter, I measured 150°C (302°F). These temperatures were with the boards in free air, sitting contained in a small case, it can only be hotter.
+
+This explains the melted plastic on some of my old cases.
+
+![20221218T130954](https://user-images.githubusercontent.com/24658072/208310250-b84dac46-41a1-4198-9457-aa668e88df05.JPG)
+
+![20221218T131006](https://user-images.githubusercontent.com/24658072/208310258-b6d5dd84-0116-43ca-a2ba-638512e4fc36.JPG)
+
+# 
+
+By comparison, this is a V2 board after an hour. The hottest component is the CPU which is sitting at 7°C (12°F) above ambient
+
+![20221218T161002](https://user-images.githubusercontent.com/24658072/208310263-d73ecab6-d3b3-4dea-ad6c-afebd9159968.JPG)
+
 ## Electrical noise
 
 To test for any issues with electrical noise, I hooked the displays up in turn to an elderly 8Ah AGM battery to provide a clean 12v power source. The oscilloscope was set to capture the effect on the 12v source of the original Chi Tai meter. The scales were then kept the same to compare it to both the V1 and V2 boards.
