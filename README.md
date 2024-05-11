@@ -2,6 +2,8 @@
  
 This is an updated version of the iolairPanelMeter project.
 
+Completed AC and DC boards are availalbe at https://nordybits.com/
+
 ![IMG-9852](https://user-images.githubusercontent.com/24658072/206868530-d4637f50-6a49-4300-b112-2fa98e5db966.jpg)
 
 ![IMG-9844](https://user-images.githubusercontent.com/24658072/206868537-55dc6386-bda2-4126-8703-08ebf3b0759b.jpg)
