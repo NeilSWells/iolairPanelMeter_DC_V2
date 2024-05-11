@@ -1,7 +1,9 @@
 # iolairPanelMeter_DC_V2
 
 The project has been developed into a commercially available product
+
 Completed AC and DC boards are availalbe at 
+
 # https://nordybits.com/
 
 This is an updated version of the iolairPanelMeter project.
